@@ -21,3 +21,6 @@ Application sends Ajax GET request to `currency-converter/convert/:value` where 
 ##Screenshots
 ![alt tag](https://github.com/kamilsss655/currency-converter/blob/master/webroot/img/screenshot.png)
 Example screenshot of the working app.
+
+##Author
+Kamil Cyrkler
