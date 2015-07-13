@@ -1,5 +1,5 @@
 /* A Linux- and Windows-friendly sans-serif font stack: http://prospects.mhurrell.co.uk/post/updating-the-helvetica-font-stack */
-body {font: 13px Helmet, Freesans, sans-serif;}
+body {font: 13px Helmet, Freesans, sans-serif; background-color:#333;}
 
 /* Using local fonts? Check out Font Squirrel's webfont generator: http://www.fontsquirrel.com/tools/webfont-generator */
 
@@ -40,29 +40,44 @@ body {
 form {
 	text-align: center;
 	width: 600px;
-	background-color: #D3D3D3;
+	background-color: #FFFFFF;
 	border-radius: 10px;
 }
 
 h1 {
 	font-size: 3em;
 	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.container {
+    display: inline;
+    vertical-align: middle;
 }
 
 #result {
 	background-color: #FFFF66;
 	font-size:1.3em;
 	padding-top: 30px;
-	padding-bottom 30px;
+	padding-bottom: 30px;
+	margin-top:20px;
+	margin-bottom: 20px;
 }
 
+.container-inline-table {
+	display:inline-box;
+}
 
+#mainLogo {
+	margin-top: 20px;
+}
 
 #btnSubmit{
 width: 100%;
 height: 40px;
 border-bottom-right-radius:10px;
 border-bottom-left-radius:10px; 
+background-color: #FFFFFF;
 }
 /* Media queries
 -------------------------------------------------------------------------------*/
