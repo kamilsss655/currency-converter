@@ -5,7 +5,7 @@
 
 ![alt tag](https://github.com/kamilsss655/currency-converter/blob/master/webroot/img/logo.png)
 
-A currency converter demo app with [CakePHP](http://cakephp.org) 3.0.
+A currency converter RUB->PLN demo app with [CakePHP](http://cakephp.org) 3.0.
 
 ## Usage
 
