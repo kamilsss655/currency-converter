@@ -14,3 +14,6 @@ A currency converter demo app with [CakePHP](http://cakephp.org) 3.0.
 ##Technologies used
 1. CakePHP
 2. jQuery
+
+##Screenshots
+![alt tag](https://github.com/kamilsss655/currency-converter/blob/master/webroot/img/screenshot.png)
