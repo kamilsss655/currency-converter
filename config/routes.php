@@ -62,7 +62,7 @@ Router::scope('/', function ($routes) {
             // to pass as function arguments. Order matters since this
             // will simply map ":id" to $articleId in your action
             'pass' => ['convertFromValue'],
-            'convertFromValue' => '[0-9]+'
+            'convertFromValue' => '[0-9]+(\.[0-9]{2})?'
             // Define a pattern that `id` must match.
             //'convertFromValue' => '[0-9]+'
         ]

@@ -72,12 +72,12 @@ $this->layout = false;
 <body>
 
 <div class="wrapper"><!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
-	 <form id="formoid" action="" title="" method="">
+	 <form id="formoid" action="" title="Converter form">
 		 <h1>Converter</h1>
 	     <label for="from_value">RUB</label>
 	  	 <input type="number" pmin="0" max="999999" step="0.01" size="4" id="from_value" placeholder="Enter RUB amount">
-	  	 <input type="submit" value="Convert to PLN" id="btnSubmit">
 	  	 <p id="result">Waiting for input</p>
+	  	 <input type="submit" value="Reset" id="btnSubmit">
 	 </form>
 
 </div>
