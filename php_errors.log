@@ -1,0 +1,65 @@
+[13-Jul-2015 15:40:55 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/currency-converter/src/Template/Convert/index.ctp on line 23
+[13-Jul-2015 15:40:55 UTC] PHP Stack trace:
+[13-Jul-2015 15:40:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/currency-converter/webroot/index.php:0
+[13-Jul-2015 15:40:55 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/currency-converter/webroot/index.php:37
+[13-Jul-2015 15:40:55 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[13-Jul-2015 15:40:55 UTC] PHP   4. Cake\Controller\Controller->render() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:120
+[13-Jul-2015 15:40:55 UTC] PHP   5. Cake\View\View->render() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Controller/Controller.php:582
+[13-Jul-2015 15:40:55 UTC] PHP   6. Cake\View\View->_render() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/View/View.php:464
+[13-Jul-2015 15:40:55 UTC] PHP   7. Cake\View\View->_evaluate() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/View/View.php:793
+[13-Jul-2015 18:22:16 UTC] PHP Parse error:  syntax error, unexpected 'B' (T_STRING) in /home/ubuntu/workspace/currency-converter/src/Controller/ConvertController.php on line 17
+[13-Jul-2015 18:22:16 UTC] PHP Stack trace:
+[13-Jul-2015 18:22:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/currency-converter/webroot/index.php:0
+[13-Jul-2015 18:22:16 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/currency-converter/webroot/index.php:37
+[13-Jul-2015 18:22:16 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[13-Jul-2015 18:22:16 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Event/EventManagerTrait.php:78
+[13-Jul-2015 18:22:16 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Event/EventManager.php:355
+[13-Jul-2015 18:22:16 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Event/EventManager.php:389
+[13-Jul-2015 18:22:16 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[13-Jul-2015 18:22:16 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:49
+[13-Jul-2015 18:22:16 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:78
+[13-Jul-2015 18:22:16 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Core/App.php:66
+[13-Jul-2015 18:22:16 UTC] PHP  11. class_exists() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Core/App.php:89
+[13-Jul-2015 18:22:16 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Core/App.php:89
+[13-Jul-2015 18:22:16 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Core/App.php:89
+[13-Jul-2015 18:22:16 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/currency-converter/vendor/composer/ClassLoader.php:301
+[13-Jul-2015 18:22:51 UTC] PHP Fatal error:  Call to undefined function App\Controller\converCurrency() in /home/ubuntu/workspace/currency-converter/src/Controller/ConvertController.php on line 18
+[13-Jul-2015 18:22:51 UTC] PHP Stack trace:
+[13-Jul-2015 18:22:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/currency-converter/webroot/index.php:0
+[13-Jul-2015 18:22:51 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/currency-converter/webroot/index.php:37
+[13-Jul-2015 18:22:51 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[13-Jul-2015 18:22:51 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[13-Jul-2015 18:22:51 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Controller/Controller.php:411}() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Controller/Controller.php:411
+[13-Jul-2015 18:22:51 UTC] PHP   6. App\Controller\ConvertController->convert() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Controller/Controller.php:411
+[13-Jul-2015 18:25:37 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/currency-converter/src/Controller/ConvertController.php on line 35
+[13-Jul-2015 18:25:37 UTC] PHP Stack trace:
+[13-Jul-2015 18:25:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/currency-converter/webroot/index.php:0
+[13-Jul-2015 18:25:37 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/currency-converter/webroot/index.php:37
+[13-Jul-2015 18:25:37 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[13-Jul-2015 18:25:37 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Event/EventManagerTrait.php:78
+[13-Jul-2015 18:25:37 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Event/EventManager.php:355
+[13-Jul-2015 18:25:37 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Event/EventManager.php:389
+[13-Jul-2015 18:25:37 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[13-Jul-2015 18:25:37 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:49
+[13-Jul-2015 18:25:37 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:78
+[13-Jul-2015 18:25:37 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Core/App.php:66
+[13-Jul-2015 18:25:37 UTC] PHP  11. class_exists() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Core/App.php:89
+[13-Jul-2015 18:25:37 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Core/App.php:89
+[13-Jul-2015 18:25:37 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Core/App.php:89
+[13-Jul-2015 18:25:37 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/currency-converter/vendor/composer/ClassLoader.php:301
+[13-Jul-2015 18:25:39 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/currency-converter/src/Controller/ConvertController.php on line 35
+[13-Jul-2015 18:25:39 UTC] PHP Stack trace:
+[13-Jul-2015 18:25:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/currency-converter/webroot/index.php:0
+[13-Jul-2015 18:25:39 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/currency-converter/webroot/index.php:37
+[13-Jul-2015 18:25:39 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[13-Jul-2015 18:25:39 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Event/EventManagerTrait.php:78
+[13-Jul-2015 18:25:39 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Event/EventManager.php:355
+[13-Jul-2015 18:25:39 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Event/EventManager.php:389
+[13-Jul-2015 18:25:39 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[13-Jul-2015 18:25:39 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:49
+[13-Jul-2015 18:25:39 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:78
+[13-Jul-2015 18:25:39 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Core/App.php:66
+[13-Jul-2015 18:25:39 UTC] PHP  11. class_exists() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Core/App.php:89
+[13-Jul-2015 18:25:39 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Core/App.php:89
+[13-Jul-2015 18:25:39 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/currency-converter/vendor/cakephp/cakephp/src/Core/App.php:89
+[13-Jul-2015 18:25:39 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/currency-converter/vendor/composer/ClassLoader.php:301
