@@ -52,7 +52,21 @@ Router::scope('/', function ($routes) {
     /**
      * ...and connect the rest of 'Pages' controller's URLs.
      */
-    $routes->connect('convert/*', ['controller' => 'Convert', 'action' => 'convert']);
+    //$routes->connect('convert/*', ['controller' => 'Convert', 'action' => 'convert']);
+    
+    $routes->connect(
+        '/convert/:convertFromValue', // E.g. /blog/3-CakePHP_Rocks
+        ['controller' => 'Convert', 'action' => 'convert'],
+        [
+            // Define the route elements in the route template
+            // to pass as function arguments. Order matters since this
+            // will simply map ":id" to $articleId in your action
+            'pass' => ['convertFromValue'],
+            'convertFromValue' => '[0-9]+'
+            // Define a pattern that `id` must match.
+            //'convertFromValue' => '[0-9]+'
+        ]
+    );
 
     /**
      * Connect catchall routes for all controllers.
